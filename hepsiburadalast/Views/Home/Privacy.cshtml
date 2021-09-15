@@ -1,0 +1,13 @@
+﻿@model List<hepsiburadalast.Models.ProductModel>
+
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+@{      foreach (var item in Model)
+            {
+                <img src="@item.image"/>
+            }
+
+}
+
+<p>Use this page to detail your site's privacy policy.</p>
